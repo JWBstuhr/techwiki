@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #11111F;
+}
+kbd {
+    border-radius: 2px;
+    padding: 2px;
+    border: 1px solid #777788;
+}
+.hd {
+    background: #22223F;
+    width: 100%;
+    height: 6.5%;
+}
+.hdlink {
+    font-family: pixel, Fallback, sans-serif;
+    color: #EEEEFF;
+    text-decoration: none;
+    font-size: 65%;
+}
+.home {
+    text-align: left;
+    font-family: pixel, Fallback, sans-serif;
+    color: #EEEEFF;
+    text-decoration: none;
+    margin: 2.5%;
+}
+.pgtitlecon {
+    background: #333344;
+    width: auto;
+    margin-right: 1%;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.tocdiv {
+    background: #333344;
+    position: fixed;
+    float: left;
+    width: 15%;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.maintxtcon {
+    background: #333344;
+    float: bottom;
+    width: auto;
+    margin-right: 1%;
+    text-align: left;
+    margin-left: 19%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.split {
+    font-size: 50%;
+    text-align: center;
+    font-family: chozo, Fallback, sans-serif;
+    color: #333344;
+}
+.break {
+    background: #333344;
+    width: 25%;
+    height: 1%;
+    text-align: center;
+    margin: auto;
+}
+.pbreak {
+    background: #222233;
+    width: 25%;
+    height: 1%;
+    text-align: center;
+    margin: auto;
+}
+.stxt {
+    color: #EEEEFF;
+    text-align: center;
+    font-family: hvn, Fallback, sans-serif;
+}
+.ptxt {
+    color: #EEEEFF;
+    text-align: center;
+    font-family: pixel, Fallback, sans-serif;
+}
+.lb {
+    color: #EEEEFF;
+    text-align: center;
+    font-family: pixel, Fallback, sans-serif;
+    text-decoration: underline;
+}
+.ptxtl {
+    color: #EEEEFF;
+    text-align: center;
+    font-family: pixel, Fallback, sans-serif;
+    text-decoration: none;
+}
+.ptxtlu {
+    color: #EEEEFF;
+    text-align: center;
+    font-family: pixel, Fallback, sans-serif;
+    text-decoration: underline;
+}
+.chdec {
+    font-family: chozosl, Fallback, sans-serif;
+    color: #555566;
+    font-size: 30%;
+    text-align: center;
+}
+.chozo {
+    font-family: chozo, Fallback, sans-serif;
+}
+.chozosl {
+    font-family: chozosl, Fallback, sans-serif;
+}
+.expand {
+    background-color: #333344;
+    text-align: left;
+    font-family: pixel, Fallback, sans-serif;
+    margin: auto;
+    width: 50%;
+    color: #EEEEFF;
+    padding: 1%;
+}
+.imgcon {
+    background-color: #333344;
+    padding: 1%;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+.img {
+    width: 100%;
+}
+.pagelink {
+    color: #EEEEFF;
+    font-family: pixel, Fallback, sans-serif;
+}
+@font-face {
+    font-family: chozo;
+    src: url('main-files/chozo.ttf');
+}
+@font-face {
+    font-family: chozosl;
+    src: url('main-files/chozo-sleek.ttf');
+}
+@font-face {
+    font-family: pixel;
+    src: url("main-files/px.ttf");
+}
+@font-face {
+    font-family: hvn;
+    src: url('main-files/hv.ttc');
+}
