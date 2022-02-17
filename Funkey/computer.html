@@ -1,0 +1,79 @@
+<title>TechWiki - FunKey S - Computer Connection</title>
+<link rel=icon href="../main-files/ico.png">
+<link rel=stylesheet href="../dw.css">
+<div class="hd">
+    <h1>
+        <a class="home" href="../index.html">TechWiki</a>
+        <span class="split"> | </span>
+        <a class="hdlink" href="index.html">FunKey S</a>
+        <span class="split"> | </span>
+    </h1>
+</div>
+<div class="tocdiv">
+    <p>
+        <span class="ptxt">Table of Contents</span> <br><br>
+        <a class="ptxtl" href="index.html">0. About</a> <br><br> 
+        <a class="ptxtl" href="computer.html">1. Connecting to a Computer</a> <br>
+        <a class="ptxtl" href="computer.html#roms">&emsp;1.1 Adding ROMs</a> <br>
+        <a class="ptxtl" href="computer.html#theme">&emsp;1.2 Adding a Theme</a> <br>
+        <a class="ptxtl" href="computer.html#bios">&emsp;1.3 Adding BIOSes</a> <br><br>
+        <a class="ptxtl" href="settings.html">2. Settings</a> <br>
+        <a class="ptxtl" href="settings.html#theme">&emsp;2.1 Applying a Theme</a> <br>
+        <a class="ptxtl" href="settings.html#battery">&emsp;2.2 Optimizing Battery</a> <br>
+        <a class="ptxtl" href="settings.html#gmenu2x">&emsp;2.3 Changing to Gmenu2x</a> <br><br>
+        <a class="ptxtl" href="troubleshoot.html">3. Troubleshooting + Other</a> <br>
+        <a class="ptxtl" href="troubleshoot.html#rom">&emsp;3.1 ROM not Showing</a> <br>
+        <a class="ptxtl" href="troubleshoot.html#recovery">&emsp;3.2 Entering Recovery Mode</a> <br>
+        <a class="ptxtl" href="troubleshoot.html#boot">&emsp;3.3 Total Failure to Boot</a> <br><br>
+        <a class="ptxtl" href="themes.html">4. Making a Theme</a> <br>
+        <a class="ptxtl" href="themes.html#start">&emsp;4.1 Getting Started</a> <br>
+        <a class="ptxtl" href="themes.html#images">&emsp;4.2 Images</a> <br>
+        <a class="ptxtl" href="themes.html#menu">&emsp;4.3 Menus</a> <br>
+        <a class="ptxtl" href="themes.html#animate">&emsp;4.4 Animation</a> <br><br>
+        <a class="ptxtl" href="exhelp.html">5. Extra Help</a> <br><br>
+        <a class="ptxtl" href="get.html">6. Getting a FunKey</a>
+    </p>
+</div>
+<div class="pgtitlecon">
+    <h1 class="ptxt">Connecting to your Computer</h1>
+</div>
+<div class="maintxtcon">
+    <p class="ptxt">
+        Attach the USB to your computer and FunKey.<br><br>
+        Press the <kbd>⏻ Menu</kbd> button to open the settings.<br><br>
+        Scroll <kbd>▲ Up</kbd> to the Mount USB option and press <kbd>&nbsp;A&nbsp;</kbd> twice to mount.<br><br>
+        You should see something along the lines of 'Detachable Drive' or 'USB Drive' appear connected to your computer.<br><br>
+        Once finished, press <kbd>&nbsp;A&nbsp;</kbd> twice to dismount the drive.<br>
+    </p>
+    <div class="pbreak" id="roms"></div>
+    <p class="ptxt">
+        Adding ROMS:<br><br>
+        Locate the folder of the system your game is for. Our example will be Super Mario World, so you'd find the SNES folder.<br><br>
+        Paste the ROM into the folder and name it whatever you'd like to appear in the menu.<br><br>
+        If you want to add a cover image, you'll need to place a .PNG file with the same name in the same folder as the ROM.<br><br>
+        For example, <code>Super Mario World.sfc</code> and <code>Super Mario World.png</code> would be in the same folder.<br><br>
+        Once that's done, you can eject the drive and your ROMs should be there.<br><br>
+        If not, check <a href="troubleshoot.html#rom" class="lb">here</a> to troubleshoot.
+    </p>
+    <div class="pbreak" id="theme"></div>
+    <p class="ptxt">
+        Adding Themes:<br><br>
+        Adding a theme is different depending on whether you're using Gmenu2x or RetroFE.<br><br>
+        Path for RetroFE: <code>/FunKey/.retrofe/layouts/</code><br><br>
+        Path for Gmenu2x: <code>/FunKey/.gmenu2x/skins/240x240/</code><br><br>
+        You paste your theme's folder into one of the folders above (depending on what kind it is).<br><br>
+        In RetroFE, you have to change <code>layouts.list</code> in the layouts folder to include the name of the folder you added.<br><br>
+        For example, if the theme folder was "RetroRoom", you'd add "RetroRoom" to the text file.<br><br><br>
+        To apply a theme, read <a href="settings.html#theme" class="lb">here</a>.<br><br><br>
+        Changing the GameBoy palette is the hardest. Go to <code>/FunKey/./</code> (If it doesn't exist, make it.)<br><br>
+        Make a new file called <code>|</code>, and inside write |.
+    </p>
+    <div class="pbreak" id="bios"></div>
+    <p class="ptxt">
+        Adding PS1 and GBA BIOSes:<br><br>
+        PS1 and GBA games typically require a BIOS file to work.<br><br>
+        For legal reasons, I can't really tell you where to get them.<br><br>
+        I'm sure you can find them somewhere, though.<br><br>
+        Just place the .bin file inside the bios folder inside the console's folder.
+    </p>
+</div>
