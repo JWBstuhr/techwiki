@@ -65,8 +65,10 @@
         In RetroFE, you have to change <code>layouts.list</code> in the layouts folder to include the name of the folder you added.<br><br>
         For example, if the theme folder was "RetroRoom", you'd add "RetroRoom" to the text file.<br><br><br>
         To apply a theme, read <a href="settings.html#theme" class="lb">here</a>.<br><br><br>
-        Changing the GameBoy palette is the hardest. Go to <code>/FunKey/./</code> (If it doesn't exist, make it.)<br><br>
-        Make a new file called <code>|</code>, and inside write |.
+        Changing the GameBoy palette is the hardest. Go to <code>/FunKey/.gnuboy/</code> (If it doesn't exist, make it.)<br><br>
+        Make a new file called <code>gnuboy.rc</code>, and inside paste the info from <a class="pagelink" href="gnuboy.txt">this</a> document.<br><br>
+        Each set of 00s after the 0x is for a hex color code. You know, #RRGGBB colors. For these, you'll have to rearrange them into #BBGGRR.<br><br>
+        The first row is the background, the second is the window, and the last two are sprites. The hex codes go in order from "brightest" to "darkest".
     </p>
     <div class="pbreak" id="bios"></div>
     <p class="ptxt">
